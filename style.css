@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-
+.body {
+    max-width: 1600px;
+}
 
 
 .section-inner {
@@ -60,13 +63,141 @@ a {
     line-height: 1.4;
 }
 
-button {
+.btn1 {
     background: #00AFDB;
     border: none;
     font-size: 17px;
     font-weight: bold;
     color: white;
-    padding: 16px;
-    margin: 16px;
+    padding: 14px 20px;
+    margin: 25px;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
+.section-header-logos {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.btn2 {
+    background: #00AFDB;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+}
+
+.section-promo {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+
+.promo__main {
+display: flex;
+}
+
+.promo__main-img {
+flex-basis: 50%;
+}
+
+.promo__main-content {
+    padding-left: 150px;
+    padding-right: 90px;
+    flex-basis: 50%;
+    align-self: center;
+}
+
+.promo__main-img {
+padding-right: 100px;
+}
+
+.title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+
+.imagesecond {
+    width: 407px;
+    height: 582px;
+}
+
+.scary {
+    background-color: #F5F6F7;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1600px;
+    max-height: 504px;
+    display: flex;
+}
+
+.scary_main {
+    justify-content: center;
+    align-self: center;
+}
+
+.scary_image {
+    display: inline;
+    flex-basis: 50%;
+}
+
+.scary1 {
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.scary2 {
+width: 330px;
+height: 190px;
+padding: 5px;
+margin: 0 5px;
+}
+
+.grid {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 470px;
+    padding-top: 70px;
+}
+
+.implement_main {
+    display: flex;
+    flex-basis: 50%;
+    padding-top: 120px;
+    padding-bottom: 140px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pixels {
+    width: 407px;
+    height: 582px;
+    padding-left: 190px;
+}
+
+.implement {
+}
+
+.implement_main-content {
+    justify-content: center;
+    padding-left: 95px;
+    padding-right: 140px;
+    padding-top: 215px;
+}
