@@ -140,14 +140,46 @@ padding-right: 100px;
 .scary {
     background-color: #F5F6F7;
     font-family: 'Roboto', sans-serif;
-    max-width: 1600px;
+    max-width: 1280px;
     max-height: 504px;
     display: flex;
+    overflow-x: hidden;
+    width: 1280px;
+    height: 504px;
+}
+
+#layer1 { 
+    z-index: 2;
+    justify-content: center;
+    text-align: center; 
+    padding-left: 100px;
+}
+
+#layer1 { 
+    z-index: 1;
 }
 
 .scary_main {
     justify-content: center;
     align-self: center;
+    padding-left: 200px;
+}
+
+.scary_main-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.scary_main-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.scary_main-subtitle {
+    text-align: center;
+    width: 298px;
+    height: 80px;
 }
 
 .scary_image {
@@ -174,8 +206,8 @@ margin: 0 5px;
     display: flex;
     justify-content: center;
     list-style: none;
-    padding-left: 470px;
-    padding-top: 70px;
+    padding-left: 60px;
+    padding-top: 140px;
 }
 
 .implement_main {
@@ -200,4 +232,120 @@ margin: 0 5px;
     padding-left: 95px;
     padding-right: 140px;
     padding-top: 215px;
+}
+
+.noidea {
+    max-width: 1280px;
+    max-height: 550px;
+    background-color: thistle;
+    width: 1280px;
+    height: 550px;
+}
+
+.noidea #rect {
+    animation-name: rainbow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbow {
+    0% { background-color: blue; }
+    50% { background-color: green; }
+    100% { background-color: yellow; }
+}
+
+.bottom__main {
+    font-family: 'Roboto', sans-serif;
+    width: 1280;
+    height: 464px;
+    background-color: #F5F6F7;
+    max-width: 1280px;
+}
+
+.x {
+    background: #00AFDB;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+}
+
+.bottom__main {
+    justify-content: center;
+    background-color: #f5f6f7;
+}
+
+.title1 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding-top: 120px;
+    padding-left: 530px;
+}
+
+.text1 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 410px;
+    margin: 0 5px;
+    max-width: 480px;
+    text-align: center;
+}
+
+.y {
+    background: #009CC2;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+}
+
+.button-whole {
+    display: flex;
+    padding-top: 45px;
+    padding-left: 450px;
+}
+
+footer {
+    display: flex;
+    background-color: #000000;
+    width: 1280px;
+    height: 160px;
+}
+
+.footer {
+
+}
+
+.footer_main {
+padding-top: 140px;
+}
+
+.footer_main-credits {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+}
+
+.circle {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 90px;
+}
+
+.by {
+    display: flex;
+    justify-content: space-between;
+    color: #818181;
+    padding-left: 300px;
 }
