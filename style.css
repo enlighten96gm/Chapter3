@@ -144,7 +144,7 @@ padding-right: 100px;
     max-height: 504px;
     display: flex;
     overflow-x: hidden;
-    width: 1280px;
+    width: 1260px;
     height: 504px;
 }
 
@@ -206,7 +206,7 @@ margin: 0 5px;
     display: flex;
     justify-content: center;
     list-style: none;
-    padding-left: 60px;
+    padding-left: 50px;
     padding-top: 140px;
 }
 
@@ -224,9 +224,6 @@ margin: 0 5px;
     padding-left: 190px;
 }
 
-.implement {
-}
-
 .implement_main-content {
     justify-content: center;
     padding-left: 95px;
@@ -235,10 +232,14 @@ margin: 0 5px;
 }
 
 .noidea {
+    background-image: url('../img/pc.png');
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
     max-width: 1280px;
     max-height: 550px;
     background-color: thistle;
-    width: 1280px;
+    width: 1260px;
     height: 550px;
 }
 
@@ -255,20 +256,53 @@ margin: 0 5px;
 
 .bottom__main {
     font-family: 'Roboto', sans-serif;
-    width: 1280;
+    width: 1270;
     height: 464px;
     background-color: #F5F6F7;
-    max-width: 1280px;
+    max-width: 1270px;
 }
 
-.x {
-    background: #00AFDB;
-    border: none;
-    font-size: 17px;
-    font-weight: bold;
-    color: white;
-    padding: 14px 20px;
+.buttonBA {
+    padding-left: 35px;
 }
+
+.first {
+    width: 170px;
+    height: 46px;
+    background-color: #00AFDB;
+    color: white;
+    border: none;
+}
+.first::before {
+width: 127px;
+height: 46px;
+background-color: #00AFDB;
+}
+
+.first::after {
+background-color: #009CC2;
+width: 59px;
+height: 46px;
+}
+.second::after {
+    background-color: #009CC2;
+    width: 59px;
+height: 46px;
+}
+
+.second {
+    width: 170px;
+    height: 46px;
+    background-color: #00AFDB;
+    color: white;
+    border: none;
+}
+.second::before {
+    width: 127px;
+    height: 46px;
+    background-color: #00AFDB;
+}
+
 
 .bottom__main {
     justify-content: center;
@@ -297,14 +331,6 @@ margin: 0 5px;
     text-align: center;
 }
 
-.y {
-    background: #009CC2;
-    border: none;
-    font-size: 17px;
-    font-weight: bold;
-    color: white;
-    padding: 14px 20px;
-}
 
 .button-whole {
     display: flex;
@@ -315,13 +341,10 @@ margin: 0 5px;
 footer {
     display: flex;
     background-color: #000000;
-    width: 1280px;
+    width: 1260px;
     height: 160px;
 }
 
-.footer {
-
-}
 
 .footer_main {
 padding-top: 140px;
