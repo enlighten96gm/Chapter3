@@ -263,45 +263,95 @@ margin: 0 5px;
 }
 
 .buttonBA {
+    display: flex;
     padding-left: 35px;
 }
 
 .first {
+    margin: 5px;
     width: 170px;
     height: 46px;
     background-color: #00AFDB;
     color: white;
     border: none;
-}
-.first::before {
-width: 127px;
-height: 46px;
-background-color: #00AFDB;
-}
-
-.first::after {
-background-color: #009CC2;
-width: 59px;
-height: 46px;
-}
-.second::after {
-    background-color: #009CC2;
-    width: 59px;
-height: 46px;
 }
 
 .second {
+    margin: 5px;
     width: 170px;
     height: 46px;
     background-color: #00AFDB;
     color: white;
     border: none;
 }
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    width: 46px;
+    background-image: url('./img/Combined\ shape\ 755.png');
+    background-repeat: no-repeat;
+    background-color: #009CC2;
+    margin-right: 25px;
+    margin-left: -10px;
+    background-position: center;
+}
+
+.android {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    width: 46px;
+    background-image: url('./img/Combined\ shape\ 761.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #009CC2;
+    margin-left: -10px;
+    margin-right: 25px;
+}
+
+/* .first::after {
+    margin-top: 5px;
+    content: url('./img/Combined\ shape\ 755.png');
+}
+
+.second::after {
+    margin-top: 5px;
+    content: url('./img/Combined\ shape\ 761.png');
+} */
+/*
+.first::before {
+width: 127px;
+height: 46px;
+background-color: black;
+}
+
+.first::after {
+background-color: black;
+width: 59px;
+height: 46px;
+} */
+
+/* .second::after {
+    background-color: #009CC2;
+    width: 59px;
+    height: 46px;
+}
+
 .second::before {
     width: 127px;
     height: 46px;
     background-color: #00AFDB;
-}
+} */
 
 
 .bottom__main {
